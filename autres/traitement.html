@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+      <meta charset="UTF-8"/>
+<body>
+<input type="button" value="Fermer" onClick="window.close()">
+</body>
+</html>
+<?php
+	$pseudo = $_POST['pseudo'];
+	$age = $_POST['age'];
+	$mail = $_POST['email'];
+	$f= fopen("Coordonnees.txt","a");
+	fwrite($f,$pseudo."\n");
+	fwrite($f,$age."\n");
+	fwrite($f,$mail."\n");
+	fclose($f);
+	$f=fopen("textfile.txt","r");
+	echo 'Vos coordonnées ont été envoyées';
+?>

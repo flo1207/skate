@@ -1,0 +1,141 @@
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+	width:100%;
+}
+
+nav a:hover
+{
+    color: white;
+    border-bottom: 50px solid
+	list-style-type: none;
+	margin-right: 15px;
+
+}
+
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav ul li {
+	float: left;
+	width: 33.3333333%;
+	height: 40px;
+	background-color: teal;
+	line-height: 40px;
+	text-align:center;
+	font-family: "Georgia ";
+	font-weight:bold;
+	color: black;
+	position:relative;
+	z-index:51;
+	}
+
+nav ul li a{
+	display: block;
+	font-size: 1.3em;
+    color: white;
+    padding-bottom: 0px;
+    text-decoration: none;
+	}
+	
+nav ul li a:hover{
+	background-color: grey;
+}
+
+nav ul li ul li {
+	display: none;
+	width: 100%;
+}
+
+nav ul li:hover ul li{
+	display:block;
+
+}
+
+h1{
+	color: teal;
+	text-decoration: underline;
+  }
+  
+h2{ 
+	color: MintCream;
+  }
+
+h3{ 
+	color: black;
+}
+
+h4{
+	text-decoration:underline;
+}
+
+ul {color: black;}
+
+li {color: black;}
+
+p{
+	margin-left: 44px;
+	margin-right:44px;
+	text-align: justify;
+}
+td{
+    border: 1px solid black;
+}
+
+
+.flotte {
+	float:left;
+	margin: 30px;
+	}
+
+.flote {
+	float:right;
+	margin: 60px;
+}
+
+.imageban{
+    height: 245px;
+    border-radius: 5px;
+    background: url("../images/bann.jpg") no-repeat;
+    position: relative;
+    box-shadow: 4px 4px 4px #1c1a19;
+    margin-bottom: 0px;
+    margin-right: 10px;
+   }
+
+.piedG {
+	float:left;
+	margin-left: 50px;
+	margin-right: 0px;
+	margin-top: 30px;	
+}
+
+.piedD {
+	float:right;
+	margin-right: 50px;
+	margin-top: 5px;
+}
+
+#pied
+{
+	height : 100px;
+	border : 1px solid;
+	color: teal;
+	margin: 10px;
+}
+
+#imgf{
+	position:absolute;
+	left:50%;
+}
+
+table
+{
+	border-collapse: collapse;
+	border:1px solid black;
+	width:40%;
+	text-align:center;
+}
